@@ -1,0 +1,207 @@
+﻿<Window x:Class="CellphoneRepairTrackerApp.AddCellphoneRepairDetailsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CellphoneRepairTrackerApp"
+        mc:Ignorable="d"
+        Title="Add Cellphone Repair Details" 
+        Height="550" Width="950"
+        MinHeight="550" MinWidth="950"
+        MaxHeight="550" MaxWidth="950"
+        FontSize="20">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.12*"/>
+            <RowDefinition Height="0.30*"/>
+            <RowDefinition Height="0.30*"/>
+            <RowDefinition Height="0.75*"/>
+            <RowDefinition Height="0.75*"/>
+            <RowDefinition Height="0.30*"/>
+            <RowDefinition Height="0.30*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.12*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.05*"/>
+            <ColumnDefinition Width="0.62*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0.40*"/>
+            <ColumnDefinition Width="0.05*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock
+            Grid.Row="1"
+            Grid.Column="1"
+            VerticalAlignment="Center"
+            Text="Cellphone Brand"/>
+        <TextBox
+            x:Name="CellphoneBrandInput"
+            Grid.Row="1"
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            Margin="5"
+            ToolTip="Type the cellphone brand."
+            />
+
+        <TextBlock
+            Grid.Row="2"
+            Grid.Column="1"
+            VerticalAlignment="Center"
+            Text="Repairman"/>
+        <TextBox
+            x:Name="RepairmanInput"
+            Grid.Row="2"
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            Margin="5"
+            ToolTip="Type the repairman."
+            />
+
+        <StackPanel
+            Grid.Row="3"
+            Grid.Column="1"
+            VerticalAlignment="Center">
+
+            <TextBlock
+                Text="Parts Used"/>
+            <TextBlock
+                FontWeight="Light"
+                FontStyle="Italic"
+                FontSize="14"
+                TextWrapping="Wrap"
+                Text="Use comma for multiple items. e.g.&#10;2x Battery and 1x Tempered Glass:&#10;Battery, Tempered Glass and 2, 1 respectively"/>
+        </StackPanel>
+        <StackPanel
+            Grid.Row="3"
+            Grid.Column="2"
+            VerticalAlignment="Center"
+            Margin="5">
+
+            <TextBlock
+                FontSize="12" 
+                Text="Part/s"/>
+            <TextBox
+                x:Name="PartUsed"
+                TextWrapping="Wrap" 
+                Height="70"
+                ToolTip="Type the part/s used. Use comma for multiple items."/>
+        </StackPanel>
+        <StackPanel
+            Grid.Row="3"
+            Grid.Column="3"
+            VerticalAlignment="Center"
+            Margin="5">
+
+            <TextBlock 
+                FontSize="12" 
+                Text="Quantity of Each"/>
+            <TextBox
+                x:Name="QuantityOfEach"
+                TextWrapping="Wrap" 
+                Height="70"
+                ToolTip="Type the quantity of each part/s used. Use comma for multiple items.
+                &#10;Each comma corresponds to each part."/>
+        </StackPanel>
+
+
+        <StackPanel
+            Grid.Row="4"
+            Grid.Column="1"
+            VerticalAlignment="Center">
+
+            <TextBlock
+                Text="Services Used"/>
+            <TextBlock
+                FontWeight="Light"
+                FontStyle="Italic"
+                FontSize="14"
+                TextWrapping="Wrap"
+                Text="Use comma for multiple items. e.g.&#10;Installed Battery and Installed Tempered Glass:&#10;Installed Battery, Installed Tempered Glass"/>
+        </StackPanel>
+        <TextBox
+            x:Name="ServicesUsedInput"
+            Grid.Row="4"
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            Margin="5"
+            TextWrapping="Wrap"
+            ToolTip="Type the services used. Use comma for multiple items."/>
+
+        <TextBlock
+            Grid.Row="5"
+            Grid.Column="1"
+            VerticalAlignment="Center"
+            Text="Request Repair Date"/>
+        <DatePicker
+            Name="RequestRepairDateInput"
+            Grid.Row="5"
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            Margin="5"
+            FontSize="16"
+            ToolTip="Type the date that the customer requested a repair."/>
+
+        <TextBlock
+            Grid.Row="6"
+            Grid.Column="1"
+            VerticalAlignment="Center"
+            Text="Actual Repair Date"/>
+        <DatePicker
+            Name="ActualRepairDateInput"
+            Grid.Row="6"
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            Margin="5"
+            FontSize="16"
+            ToolTip="Type the date that you started the repair."/>
+
+        <StackPanel
+            Grid.Row="7"
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            Orientation="Horizontal"
+            HorizontalAlignment="Right" 
+            Margin="0,10,5,90">
+            <Button
+                x:Name="CancelButton"
+                Width="100"
+                FontSize="14"
+                Content="Cancel"
+                Click="CancelButton_Click"/>
+            <Button
+                x:Name="SaveButton"
+                Width="100"
+                Margin="20,0,0,0"
+                FontSize="14"
+                Content="Save"
+                Click="SaveButton_Click"/>
+
+        </StackPanel>
+
+
+        <!--design2x hehe-->
+        <Label
+            Grid.Row="7"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            Background="BlueViolet"
+            VerticalAlignment="Top" 
+            Margin="0,115,0,0"/>
+        <Label
+            Grid.Row="7"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            Background="BlueViolet"
+            VerticalAlignment="Top" 
+            Margin="0,100,100,0"/>
+        <Label
+            Grid.Row="7"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            Background="BlueViolet"
+            VerticalAlignment="Top" 
+            Margin="0,85,200,0"/>
+    </Grid>
+</Window>
