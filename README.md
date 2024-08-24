@@ -1,6 +1,8 @@
 > [!NOTE]  
 > Currently have no plans to update the project. Also important to mention is that the entries for CellphoneRecords.txt are just mockups.
 
+<br>
+
 This app was made as part of the requirement for CPE1231 Object-Oriented Programming subject back in March 2022.
 
 <br>
