@@ -17,6 +17,8 @@ It is a tracker that tracks the history of cellphone repair jobs in their store 
 | 📖  [Cellphone Repair Tracker Documentation](https://github.com/elgikore/cellphone-repair-tracker/blob/main/Corey_CellphoneRepairTrackerDocumentation.pdf)   |
 |-----------------------------------------|
 
+<br>
+
 # How to install
 1. Make sure you have [.NET Core 3.1](https://dotnet.microsoft.com/en-us/download/dotnet/3.1) or higher (since it uses C# 8.0).
 2. Click the latest version on the Releases section and download the source code. Alternatively, click the green code button and download as a ZIP (or you can clone it).
