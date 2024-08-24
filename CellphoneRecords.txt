@@ -1,0 +1,8 @@
+Xiaomi Redmi Note 10 Pro,Chloe Sakamata,Battery|1|Camera|1,Install Battery|Install Camera,2022/03/21,2022/03/21
+iPhone 12,Nekomata Okayu,Camera|1,Install Camera,2022/03/23,2022/03/23
+Samsung Galaxy Note 22 Ultra,Mori Calliope,Tempered Glass|1,Tempered Glass Installation,2022/03/21,2022/03/21
+Samsung Galaxy Y,Chloe Sakamata,Battery|1,Replace Battery,2022/03/25,2022/03/25
+Realme 8 Pro,Chloe Sakamata,LCD|1|Camera|1,Replace LCD|Replace Camera,2022/03/26,2022/03/26
+Xiaomi Redmi Note 10,Mori Calliope,Rubber Casing|1|Tempered Glass|1,Install Rubber Casing,2022/03/29,2022/03/29
+Samsung Galaxy Y,Elgien,Tempered Glass|1|Rubber Casing|1,Installed Tempered Glass|Installed Rubber Casing,2022/03/30,2022/03/30
+Xiaomi Mi MIx,Nekomata Okayu,Battery|2|Tempered Glass|1,Installed Battery|Installed Tempered Glass,2022/03/30,2022/03/30
