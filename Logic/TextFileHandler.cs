@@ -10,7 +10,7 @@ namespace CellphoneRepairTrackerApp.Logic
 {
     public class TextFileHandler
     {
-        private const string _txtFilePath = @"..\..\..\..\CellphoneRecords.txt";
+        private const string _txtFilePath = @"..\..\..\CellphoneRecords.txt";
         public const int parametersOfOneClassPart = 2;
         private const int _numberOfInfoInOneLineInTxtFile = 6;
 
