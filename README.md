@@ -26,8 +26,8 @@ It is a tracker that tracks the history of cellphone repair jobs in their store 
 # How to install
 1. Make sure you have [.NET Core 3.1](https://dotnet.microsoft.com/en-us/download/dotnet/3.1) or higher (since it uses C# 8.0).
 2. Click the latest version on the Releases section and download the source code. Alternatively, click the green code button and download as a ZIP (or you can clone it).
-3. Open your favorite code editor of your choice (Visual Studio is more recommended than VS Code)
-4. Open the solution file and then run (Visual Studio) or open the folder of the project and then run the MainWindow.xaml.cs file (VS Code and other code editors)
+3. Open your favorite code editor of your choice (Visual Studio is more recommended than VS Code).
+4. Open the solution file and then run (Visual Studio) or open the folder of the project and then run the MainWindow.xaml.cs file (VS Code and other code editors).
    * You can also launch it from the terminal but make sure you use Roslyn as the [compiler](https://stackoverflow.com/questions/31875825/how-to-run-roslyn-instead-csc-exe-from-command-line).
 6. Enjoy!
 
